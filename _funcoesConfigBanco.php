@@ -17,8 +17,8 @@
 
 function conectarBanco($nome_db) {
     $servidor    = "aws.connect.psdb.cloud"; // Atencao: indique aqui conforme o BD que ira usar!
-    $usuario     = "8r1j6lz6zu98yt3s35mx";
-    $senha_mysql = "pscale_pw_1Mv7yLSRGB4oQIMHAKyORtukqDAfmh1q9vIp1NuGCic";
+    $usuario     = "8mkjz8j9o9lf7bs29nu5";
+    $senha_mysql = "pscale_pw_NRP2BaGzkDba0Q9B26OY2tr5Bgv73bGeE1IHosx8IOJ";
             
     // cria conexao
     $con = mysqli_connect($servidor, $usuario, $senha_mysql, $nome_db);
