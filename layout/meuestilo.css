@@ -1,0 +1,48 @@
+/* arquivo de estilo personalizacoes */
+
+.responsivo {
+  width: 450px;
+  
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content:center;
+}
+
+.texto-roxo{
+    color: purple;
+}
+
+.fundo{
+  background-color: cadetblue;
+}
+
+.centralizar{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+}
+
+.btn-color{
+  background-color: #0e1c36;
+  color: #fff;
+  
+}
+
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+  
